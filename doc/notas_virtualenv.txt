@@ -1,0 +1,32 @@
+instalar vitualenv con $sudo pip install virtualenv}
+
+crear el directorio virtual:
+$virtualenv -p python3 .
+
+activar el entorno:
+$source bin/activate
+
+instalar django en el entorno virtual:
+$pip install django
+
+------
+DJANGO
+
+levanta el interprete de python conectado al proyecto. lo cual permite llamar modelos creados en la base de datos.
+$python manage.py shell
+
+ejmplo de importar un producto ya creado en terminal:
+>>> from products.models import Product
+>>> Product.objects.all()
+
+correr el servidor con django:
+$python manage.py runserver
+
+migrar los cambios de la base de datos:
+$python manage.py migrate
+
+crear un user admin:
+$python manage.py createsuperuser
+
+crear una nueva app (un modulo):
+$python manage.py startapp nombreDeLaApp

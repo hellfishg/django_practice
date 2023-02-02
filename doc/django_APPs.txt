@@ -1,0 +1,17 @@
+django apps:
+
+ADMIN:
+crea un backoffice.
+usa la clase admin.py en cada APP para hacer visible en el backoffice.
+
+AUTH:
+crea el autentificador de usuarios.
+
+CONTENTTYPES:
+
+
+SESSIONS:
+
+MESSAGES:
+
+STATICFILES:
