@@ -22,6 +22,9 @@ ejmplo de importar un producto ya creado en terminal:
 correr el servidor con django:
 $python manage.py runserver
 
+crear las migraciones hacia la base de datos:
+$python manage.py makemigrations
+
 migrar los cambios de la base de datos:
 $python manage.py migrate
 
