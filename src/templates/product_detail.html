@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1>PAGINA DE PRODUCTOS</h1>
+    <p>Usuario conectado: {{ request.user }}</p>
+    <p>-------------</p>
+    <p> Nombre del producto: {{ obj.name }}</p>
+    <p> Descripcion: {{ obj.description }}</p>
+    <p> Precio: {{ obj.price }}</p>
+    <p></p>
+{% endblock %}
