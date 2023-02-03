@@ -26,7 +26,7 @@ migrar los cambios de la base de datos:
 $python manage.py migrate
 
 crear un user admin:
-$python manage.py createsuperuser
+$python manage.py createsuperuser # pi:root
 
 crear una nueva app (un modulo):
 $python manage.py startapp nombreDeLaApp
