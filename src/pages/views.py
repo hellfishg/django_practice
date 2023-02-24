@@ -16,4 +16,3 @@ def biblos_view(request, *arg, **kwargs):
 
 def contac_view(request, *arg, **kwargs):
     return HttpResponse("<h1>PAGINA DE INICIO!</h1>")
-
